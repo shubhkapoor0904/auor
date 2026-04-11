@@ -1,0 +1,7 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+body, a, button, h1, h2, h3, p, div, img, section, nav {
+  cursor: none !important;
+}
