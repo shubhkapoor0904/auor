@@ -5,7 +5,7 @@ export default function App() {
 
       {/* Add components ONE BY ONE */}
 
-      {<InstagramFeed />}
+      {/*<InstagramFeed /> */}
       {/* <Hero /> */}
       {/* <Navbar /> */}
 
