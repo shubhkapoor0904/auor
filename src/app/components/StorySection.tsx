@@ -2,8 +2,8 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
 import svgPaths from "../../imports/svg-t4eik94b2c";
-import imgImage2 from "figma:asset/61aaded678b9a18e1bbb361175ebea883a930360.png";
-import imgImage1 from "figma:asset/cf9eaac39a54901e467db2406bf9ed22aeb73e4f.png";
+const imgImage2 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+const imgImage1 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
 import { VideoModal } from "./ui/VideoModal";
 
 export function StorySection() {

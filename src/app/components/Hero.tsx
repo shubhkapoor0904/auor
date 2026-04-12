@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import img38Ad2Bb0A23F458E99DbDac8Ee1A6B6911 from "figma:asset/5b2dc20b3c21ea5f9101f8d1653617ea82a3ab95.png";
+const img38Ad2Bb0A23F458E99DbDac8Ee1A6B6911 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
 
 export function Hero() {
   return (

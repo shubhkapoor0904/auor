@@ -2,9 +2,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
 import svgPaths from "../../imports/svg-t4eik94b2c";
-import imgImage5 from "figma:asset/1809702a116c1e1441de614eb128d7d094dd9641.png";
-import imgImage6 from "figma:asset/d08d04ac39ca645ba2d95b184d4ed4f03bf875cf.png";
-import imgImage7 from "figma:asset/05592b4f2dd14a2100da275f46dbeab546357cba.png";
+const imgImage5 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+const imgImage6 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+const imgImage7 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
 
 const services = [
   {

@@ -2,8 +2,8 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import svgPaths from "../../imports/svg-t4eik94b2c";
-import imgImage3 from "figma:asset/76f9e04c107cd9f4d5ff1dc444af5dce3601138f.png";
-import imgImage4 from "figma:asset/cd8dd60cb6b16800bfdc727675dcd1e1b7116e28.png";
+const imgImage3 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+const imgImage4 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
 
 function MissJoLogo() {
   return (

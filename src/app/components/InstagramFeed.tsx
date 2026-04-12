@@ -1,6 +1,6 @@
 import { motion, useAnimationFrame, useMotionValue, useSpring } from "motion/react";
 import { useState, useEffect } from "react";
-import imgImageDefault from "figma:asset/8df0c655add8d4b3df2a81881fed7d507cd05f6e.png";
+const imgImageDefault = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
 import journal1 from "../../assets/journal1.jpeg";
 import journal2 from "../../assets/journal2.jpeg";
 import journal3 from "../../assets/journal3.jpeg";
