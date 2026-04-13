@@ -2,8 +2,8 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
 import svgPaths from "../../imports/svg-t4eik94b2c";
-const imgImage2 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
-const imgImage1 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+import imgImage2 from "../../assets/crafting2.png";
+import imgImage1 from "../../assets/crafting1.png";
 import { VideoModal } from "./ui/VideoModal";
 
 export function StorySection() {

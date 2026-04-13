@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
-const imgRectangle = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+import imgRectangle from "../../assets/ceo.png";
 
 export function Testimonial() {
   const ref = useRef(null);

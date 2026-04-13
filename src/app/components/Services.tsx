@@ -2,9 +2,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
 import svgPaths from "../../imports/svg-t4eik94b2c";
-const imgImage5 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
-const imgImage6 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
-const imgImage7 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+import imgImage5 from "../../assets/comprehensivepr1.png";
+import imgImage6 from "../../assets/comprehensivepr2.png";
+import imgImage7 from "../../assets/comprehensivepr3.png";
 
 const services = [
   {

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-const img38Ad2Bb0A23F458E99DbDac8Ee1A6B6911 = "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1500&auto=format&fit=crop";
+import imgHero from "../../assets/hero.png";
 
 export function Hero() {
   return (
@@ -11,7 +11,7 @@ export function Hero() {
         className="absolute inset-0"
       >
         <img
-          src={img38Ad2Bb0A23F458E99DbDac8Ee1A6B6911}
+          src={imgHero}
           alt="Fashion editorial"
           className="w-full h-full object-cover"
         />
