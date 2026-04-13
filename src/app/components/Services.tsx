@@ -117,7 +117,7 @@ export function Services() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="bg-gradient-to-b from-black to-[#0a0909] py-20 lg:py-32">
+    <section id="services" ref={ref} className="bg-gradient-to-b from-black to-[#0a0909] py-20 lg:py-32">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-20">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

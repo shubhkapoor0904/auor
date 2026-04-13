@@ -12,7 +12,7 @@ export function StorySection() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
   return (
-    <section ref={ref} className="bg-[#0a0909] py-20 lg:py-32 overflow-hidden">
+    <section id="about" ref={ref} className="bg-[#0a0909] py-20 lg:py-32 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <motion.div

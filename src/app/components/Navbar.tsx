@@ -22,12 +22,12 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-8">
             <a href="#home" className="text-[16px] hover:opacity-60 transition-opacity">Home</a>
             <a href="#about" className="text-[16px] hover:opacity-60 transition-opacity">About Us</a>
-            <div className="flex items-center gap-1 cursor-pointer hover:opacity-60 transition-opacity">
+            <a href="#services" className="flex items-center gap-1 cursor-pointer hover:opacity-60 transition-opacity">
               <span className="text-[16px]">Our Services</span>
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
                 <path clipRule="evenodd" d={svgPaths.pee47f00} fill="currentColor" fillRule="evenodd" />
               </svg>
-            </div>
+            </a>
             <button onClick={() => setIsPortalOpen(true)} className="text-[16px] hover:opacity-60 transition-opacity">Client Portal</button>
           </div>
 

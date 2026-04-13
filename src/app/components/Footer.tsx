@@ -115,7 +115,7 @@ export function Footer() {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-[16px] opacity-70">
-              <span>© 2024 AUOR Studio. All rights reserved.</span>
+              <span>© 2026 AUOR Studio. All rights reserved.</span>
               <a href="#privacy" className="hover:opacity-100 transition-opacity">Privacy Policy</a>
               <a href="#terms" className="hover:opacity-100 transition-opacity">Terms of Use</a>
               <a href="#cookies" className="hover:opacity-100 transition-opacity">Cookie Policy</a>

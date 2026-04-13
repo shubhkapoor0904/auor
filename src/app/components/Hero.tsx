@@ -3,7 +3,7 @@ import imgHero from "../../assets/hero.png";
 
 export function Hero() {
   return (
-    <section className="relative h-screen min-h-[600px] overflow-hidden mt-[73px]">
+    <section id="home" className="relative h-screen min-h-[600px] overflow-hidden mt-[73px]">
       <motion.div
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
