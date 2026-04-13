@@ -48,10 +48,10 @@ export function BrandLogos() {
           <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
             <img src={imgImage4} alt="Brand logo" className="h-[50px] lg:h-[66px] w-auto object-contain" />
           </div>
-          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
+          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 translate-y-2 lg:translate-y-4">
             <MissJoLogo />
           </div>
-          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 transform -translate-y-1 lg:-translate-y-2.5">
+          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
             <img src={imgImage3} alt="Brand logo" className="h-[50px] lg:h-[67px] w-auto object-contain" />
           </div>
         </motion.div>
