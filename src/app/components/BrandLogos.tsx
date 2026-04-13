@@ -43,16 +43,16 @@ export function BrandLogos() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex flex-wrap items-center justify-center gap-12 lg:gap-20"
+          className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 items-center justify-items-center w-full max-w-[1000px] mx-auto"
         >
-          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
-            <img src={imgImage4} alt="Brand logo" className="h-[50px] lg:h-[66px] w-auto object-contain" />
+          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 flex justify-center items-center h-[100px] w-full">
+            <img src={imgImage4} alt="Brand logo" className="max-h-[66px] w-auto object-contain" />
           </div>
-          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 translate-y-2 lg:translate-y-4">
+          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 flex justify-center items-center h-[100px] w-full">
             <MissJoLogo />
           </div>
-          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
-            <img src={imgImage3} alt="Brand logo" className="h-[50px] lg:h-[67px] w-auto object-contain" />
+          <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 flex justify-center items-center h-[100px] w-full">
+            <img src={imgImage3} alt="Brand logo" className="max-h-[67px] w-auto object-contain" />
           </div>
         </motion.div>
       </div>
