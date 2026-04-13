@@ -46,7 +46,7 @@ export function BrandLogos() {
           className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 items-center justify-items-center w-full max-w-[1000px] mx-auto"
         >
           <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 flex justify-center items-center h-[100px] w-full">
-            <img src={imgImage4} alt="Brand logo" className="max-h-[66px] w-auto object-contain" />
+            <img src={imgImage4} alt="Brand logo" className="max-h-[66px] w-auto object-contain transform -translate-y-2 lg:-translate-y-3" />
           </div>
           <div className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 flex justify-center items-center h-[100px] w-full">
             <MissJoLogo />
